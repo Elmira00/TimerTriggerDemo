@@ -11,6 +11,7 @@ public class Function1
     public Function1(ILoggerFactory loggerFactory)
     {
         _logger = loggerFactory.CreateLogger<Function1>();
+
     }
 
     [Function("Function1")]
